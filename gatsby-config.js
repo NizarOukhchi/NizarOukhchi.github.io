@@ -4,7 +4,7 @@ module.exports = {
     description: `Gatsby starter styled with Tailwind`,
     author: `@taylorbryant`
   },
-  pathPrefix: '/reponame',
+  pathPrefix: '/nizaroukhchi',
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
