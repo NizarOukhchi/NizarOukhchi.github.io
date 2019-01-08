@@ -11,8 +11,14 @@ import '../css/style.css';
 const IndexPage = () => (
   <div>
     <SEO
-      title="Home"
-      keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+      title="Freelancer, Software engineer, Javascript Enthusiast"
+      keywords={[
+        `Javascript`,
+        `Frontend developer`,
+        `Fullstack developer`,
+        `Freelancer`
+      ]}
+      description="Nizar Oukhchi, Software Engineer, Freelance & a Javascript enthusiast, I love technology and code."
     />
 
     <ReactFullpage

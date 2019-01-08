@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`
+    title: `Nizar Oukhchi`,
+    description: `Nizar Oukhchi Freelance, Javascript Enthusiast`,
+    author: `@nizaroukhchi`
   },
   pathPrefix: '/nizaroukhchi',
   plugins: [
@@ -19,13 +19,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
-        short_name: `starter`,
+        name: `nizar oukhchi`,
+        short_name: `nizar`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#4dc0b5`,
-        display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png` // This path is relative to the root of the site.
+        theme_color: `#604781`,
+        display: `minimal-ui` // This path is relative to the root of the site.
       }
     },
     `gatsby-plugin-postcss`,
